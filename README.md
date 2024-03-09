@@ -3,15 +3,15 @@ A simple Node.js API for managing a movie lobby with CRUD operations.
 
   ## Installation
 
-1. Clone the repository:
-
    ```bash
-   git clone <repository_url>
-   cd <movies-list>
-   npm install
-   npm run dev
+    Clone the repository:
+
+      git clone <repository_url>
+      cd <movies-list>
+      npm install
+      npm run dev
   ```
-- ## API Documentation
+## API Documentation
   - 1. List all movies
   - 2. Search for a movie by title or genre
   - 3. Add a new movie to the lobby (requires "admin" role)
@@ -19,11 +19,13 @@ A simple Node.js API for managing a movie lobby with CRUD operations.
   - 5. Delete a movie from the lobby (requires "admin" role)
 
 
-## Sample Data
--- Sample data for post API
+## Sample Data  -- Sample data for post API
+
 data = {
+
   "title": "The Last donce",
   "genre": "autobiography",
   "rating": 9.5,
   "streamingLink": "https://example.com/the-last-donce"
+
 }
